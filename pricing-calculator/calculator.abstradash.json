@@ -1,0 +1,118 @@
+{
+    "name": "Hello World",
+    "show_sidebar": true,
+    "layout": {
+        "props": {},
+        "version": "0.1",
+        "widgets": {
+            "e6ccfd0f-e758-4ec3-b6f5-9cbdc1519125": {
+                "id": "e6ccfd0f-e758-4ec3-b6f5-9cbdc1519125",
+                "type": "markdown-output",
+                "colEnd": 8,
+                "colStart": 1,
+                "rowEnd": 3,
+                "rowStart": 0,
+                "props": {
+                    "text": "\"# Shipping Calculator\""
+                },
+                "events": {}
+            },
+            "af1530cd-4a20-48f9-870e-640e34067c2c": {
+                "id": "af1530cd-4a20-48f9-870e-640e34067c2c",
+                "type": "text-input",
+                "colEnd": 5,
+                "colStart": 1,
+                "rowEnd": 6,
+                "rowStart": 4,
+                "props": {
+                    "label": "\"Enter the postal code destination below:\"",
+                    "required": "True",
+                    "hint": "",
+                    "placeholder": "\"00000-000\""
+                },
+                "events": {},
+                "variable": "postal_code"
+            },
+            "25e952ed-a57e-4897-8874-b349897e13b0": {
+                "id": "25e952ed-a57e-4897-8874-b349897e13b0",
+                "type": "multiple-choice-input",
+                "colEnd": 3,
+                "colStart": 1,
+                "rowEnd": 13,
+                "rowStart": 10,
+                "props": {
+                    "label": "\"Select delivery urgency:\"",
+                    "options": "[{'label': 'Regular', 'value': 0}, {'label': 'Express', 'value': 15}]"
+                },
+                "events": {},
+                "variable": "urgency"
+            },
+            "a303af5d-168a-4206-8f4a-1de2655e79de": {
+                "id": "a303af5d-168a-4206-8f4a-1de2655e79de",
+                "type": "dropdown-input",
+                "colEnd": 6,
+                "colStart": 4,
+                "rowEnd": 12,
+                "rowStart": 10,
+                "props": {
+                    "label": "\"Select package weight:\"",
+                    "options": "[\n    {\n      \"label\": \"Under 300g\",\n      \"value\": 10,\n    },\n    {\n      \"label\": \"301g - 1kg\",\n      \"value\": 20,\n    },\n    {\n      \"label\": \"1kg+\",\n      \"value\": 30,\n    }\n  ]"
+                },
+                "events": {},
+                "variable": "weight"
+            },
+            "a936fdf4-9861-4b82-852c-521ac0a25cd1": {
+                "id": "a936fdf4-9861-4b82-852c-521ac0a25cd1",
+                "type": "markdown-output",
+                "colEnd": 7,
+                "colStart": 1,
+                "rowEnd": 9,
+                "rowStart": 8,
+                "props": {
+                    "text": "address"
+                },
+                "events": {}
+            },
+            "9788d467-34f5-4ef9-982c-26e82c0accc8": {
+                "id": "9788d467-34f5-4ef9-982c-26e82c0accc8",
+                "type": "text-output",
+                "colEnd": 5,
+                "colStart": 1,
+                "rowEnd": 19,
+                "rowStart": 18,
+                "props": {
+                    "text": "f\"Total shipping fees: ${final_price()}\""
+                },
+                "events": {}
+            },
+            "ecc63efc-d3e1-451f-8e9b-b3d088a3d174": {
+                "id": "ecc63efc-d3e1-451f-8e9b-b3d088a3d174",
+                "type": "checkbox-input",
+                "colEnd": 3,
+                "colStart": 1,
+                "rowEnd": 15,
+                "rowStart": 15,
+                "props": {
+                    "label": "\"Add first order discount\""
+                },
+                "events": {},
+                "variable": "discount"
+            },
+            "b00e6edc-e8ef-40a4-8b37-b31ce497d409": {
+                "id": "b00e6edc-e8ef-40a4-8b37-b31ce497d409",
+                "type": "click-input",
+                "colEnd": 7,
+                "colStart": 6,
+                "rowEnd": 6,
+                "rowStart": 5,
+                "props": {
+                    "label": "\"Search\""
+                },
+                "events": {
+                    "click": "get_address(postal_code)"
+                }
+            }
+        }
+    },
+    "title": "calculator"
+}
