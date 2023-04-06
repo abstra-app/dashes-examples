@@ -1,0 +1,8 @@
+prospect_id,prospect_name,created_date,legal_assessment,ESG_score,internal_assessment,request_status,comments
+3810,A Entertainment,02/01/2023,Cleared,Unavailable,Low risk,Approved,
+3931,B Company,02/01/2023,Cleared,Excellent,Low risk,Approved,
+5083,C Firm,03/01/2023,Rejected,Poor,High risk,Rejected,
+1930,D Enterprise,04/01/2023,Cleared,Unavailable,Medium risk,Approved,
+4068,E Studios,04/01/2023,Cleared,Good,,,
+6604,F Consulting,04/01/2023,,,,,
+5923,G Courses,05/01/2023,,,,,
