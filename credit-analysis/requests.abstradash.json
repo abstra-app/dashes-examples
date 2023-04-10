@@ -19,7 +19,7 @@
         },
         "events": {
           "action-click": "handle_table_action(__event__)",
-          "row-click": "print(__event__)"
+          "row-click": ""
         }
       },
       "a191f085-80f5-44b7-8e32-1aae493e3274": {
@@ -33,20 +33,6 @@
           "text": "\"Welcome! Approve, edit or reject credit requests below:\""
         },
         "events": {}
-      },
-      "c2078a25-f0d5-458a-ae3f-0dccd4aaae84": {
-        "id": "c2078a25-f0d5-458a-ae3f-0dccd4aaae84",
-        "type": "click-input",
-        "colEnd": 2,
-        "colStart": 1,
-        "rowEnd": 22,
-        "rowStart": 21,
-        "props": {
-          "label": "\"Click here!\""
-        },
-        "events": {
-          "click": "print(df.loc[df['prospect_name'] == '4068'])"
-        }
       }
     }
   },

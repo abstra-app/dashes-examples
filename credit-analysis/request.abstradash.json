@@ -30,7 +30,7 @@
           "options": "[\n    \"Excellent\", \"Good\", \"Poor\", \"Unavailable\"\n  ]"
         },
         "events": {},
-        "variable": "ESG_score"
+        "variable": "esg_score"
       },
       "2ae690af-2adf-4919-b97e-07ec0f9cc522": {
         "id": "2ae690af-2adf-4919-b97e-07ec0f9cc522",
@@ -79,10 +79,10 @@
         "type": "markdown-output",
         "colEnd": 6,
         "colStart": 0,
-        "rowEnd": 3,
+        "rowEnd": 2,
         "rowStart": 1,
         "props": {
-          "text": "\"# Review {prospect_name}'s request\""
+          "text": "f\"# Review {prospect_name}'s request\""
         },
         "events": {}
       },
@@ -100,15 +100,27 @@
           "click": "update_request()"
         }
       },
-      "872af4ef-166e-4554-8bf4-9e9a83404e2c": {
-        "id": "872af4ef-166e-4554-8bf4-9e9a83404e2c",
+      "8937e8a9-5c1a-4357-918e-a3d7d1539764": {
+        "id": "8937e8a9-5c1a-4357-918e-a3d7d1539764",
         "type": "text-output",
-        "colEnd": 6,
+        "colEnd": 3,
         "colStart": 0,
-        "rowEnd": 24,
-        "rowStart": 21,
+        "rowEnd": 3,
+        "rowStart": 3,
         "props": {
-          "text": "request"
+          "text": "f\"Created at: {created_date}\""
+        },
+        "events": {}
+      },
+      "1f586a72-6f98-4e7c-a79f-595ae60e1605": {
+        "id": "1f586a72-6f98-4e7c-a79f-595ae60e1605",
+        "type": "text-output",
+        "colEnd": 3,
+        "colStart": 0,
+        "rowEnd": 4,
+        "rowStart": 4,
+        "props": {
+          "text": "f\"Created at: {updated_at}\""
         },
         "events": {}
       }
