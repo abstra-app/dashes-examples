@@ -40,5 +40,5 @@ def update_request():
     df.loc[df['request_id'] == request_id, 'updated_at'] = math.floor(datetime.now().timestamp())
     df.to_csv(csv_data, index=False)
     sleep(1)
-    redirect('/credit_requests')
+    redirect('/credit_request_admin')
 
