@@ -1,0 +1,63 @@
+{
+    "name": "Hello World",
+    "layout": {
+        "props": {},
+        "version": "0.1",
+        "widgets": {
+            "e6ccfd0f-e758-4ec3-b6f5-9cbdc1519125": {
+                "id": "e6ccfd0f-e758-4ec3-b6f5-9cbdc1519125",
+                "type": "markdown-output",
+                "colEnd": 7,
+                "colStart": 0,
+                "rowEnd": 3,
+                "rowStart": 0,
+                "props": {
+                    "text": "get_greeting()"
+                },
+                "events": {}
+            },
+            "af1530cd-4a20-48f9-870e-640e34067c2c": {
+                "id": "af1530cd-4a20-48f9-870e-640e34067c2c",
+                "type": "text-input",
+                "colEnd": 4,
+                "colStart": 0,
+                "rowEnd": 8,
+                "rowStart": 5,
+                "props": {
+                    "label": "\"Enter your name below...\"",
+                    "required": "",
+                    "hint": ""
+                },
+                "events": {},
+                "variable": "name"
+            },
+            "75676536-2c21-41f2-b376-b78c93a20055": {
+                "id": "75676536-2c21-41f2-b376-b78c93a20055",
+                "type": "click-input",
+                "colEnd": 4,
+                "colStart": 0,
+                "rowEnd": 13,
+                "rowStart": 12,
+                "props": {
+                    "label": "get_button_label()"
+                },
+                "events": {
+                    "click": "increment()"
+                }
+            },
+            "3a0356e5-d928-4a56-85df-00bf1949f9f0": {
+                "id": "3a0356e5-d928-4a56-85df-00bf1949f9f0",
+                "type": "markdown-output",
+                "colEnd": 11,
+                "colStart": 9,
+                "rowEnd": 3,
+                "rowStart": 0,
+                "props": {
+                    "text": "\"## Switch modes here 👉\""
+                },
+                "events": {}
+            }
+        }
+    },
+    "title": "helloworld"
+}

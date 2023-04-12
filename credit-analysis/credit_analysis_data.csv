@@ -1,9 +1,8 @@
 request_id,prospect_id,prospect_name,created_at,updated_at,legal_assessment,ESG_score,internal_assessment,request_status,comments
 1,3810,A Entertainment,1640995200,1640995200,Cleared,Unavailable,Low risk,Approved,
 2,3931,B Company,1641081600,1641081600,Cleared,Excellent,Low risk,Approved,
-3,5083,C Firm,1641513600,1641513600,Rejected,Poor,High risk,Rejected,
+3,5083,C Firm,1641513600,1681164087,Rejected,Poor,Medium risk,Rejected,
 4,1930,D Enterprise,1641168000,1681159511,Rejected,Unavailable,High risk,Rejected,
 5,4068,E Studios,1641168000,1641168000,Cleared,Good,,,
 6,6604,F Consulting,1641168000,1641168000,,,,,
 7,5923,G Courses,1642224000,1642224000,,,,,
-

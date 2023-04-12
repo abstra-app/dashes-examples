@@ -18,4 +18,4 @@ def handle_table_action(event):
 
   data = payload.get('data')
   
-  redirect('/request', {"id": data.get('request_id')})
+  redirect('/credit_request', {"id": data.get('request_id')})
